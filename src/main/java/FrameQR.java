@@ -92,7 +92,7 @@ public class FrameQR extends javax.swing.JFrame {
         Image img=new ImageIcon(salida.toByteArray()).getImage();
         ImageIcon img2=new ImageIcon(img.getScaledInstance(300, 300, Image.SCALE_AREA_AVERAGING));
         lbl_codigo_barras.setIcon(img2);
-        
+        System.out.println(" bienvenido a mi nueva modificacion ");
     }//GEN-LAST:event_btn_generarActionPerformed
 
     /**
